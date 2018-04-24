@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- our meta data goes here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>label</title>
+</head>
+
+<!-- our main part of web goes here -->
+
+<body>
+    <!-- Normal sign-in form with label -->
+    <h3>Sign In</h3>
+    <form>
+        <label>Username: <input type="text"></label>
+        <label>Password: <input type="password"></label>
+        <input type="submit">
+    </form>
+
+    <!-- For screen reader and blind people -->
+    <h3>Log In</h3>
+    <form class="login" action="index.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id: "username" placeholder="Username">
+        <label for="password">Password:</label>
+        <input type="text" id: "Password" placeholder="Username">
+        <button type="button">log in</button>
+    </form>
+</body>
+
+</html>
